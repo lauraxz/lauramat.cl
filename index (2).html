@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laura Sobarzo | Clases particulares online de Matemáticas y Programación</title>
+<meta name="description" content="Clases particulares online 1 a 1 de Álgebra, Cálculo, Ecuaciones Diferenciales y Python para todo Chile. Pizarra digital y PDF con todo lo resuelto.">
+<meta property="og:title" content="Laura Sobarzo | Clases de Matemáticas y Programación">
+<meta property="og:description" content="Clases online 1 a 1, paso a paso, con PDF de todo lo resuelto. Todo Chile.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="perfil.jpg">
+<meta name="theme-color" content="#5B3A9B">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%235B3A9B'/%3E%3Ctext x='50' y='72' font-size='64' text-anchor='middle' fill='%23F9C9E1' font-family='serif'%3E%E2%88%AB%3C/text%3E%3C/svg%3E">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+<script>
+tailwind.config={theme:{extend:{colors:{ink:'#3B2457',violet:'#5B3A9B',lilac:'#E9E0FB',blush:'#F9C9E1',rose:'#B8337C',paper:'#FBF8FF'},
+fontFamily:{sans:['Inter','sans-serif'],serif:['Lora','serif']}}}}
+</script>
+<style>
+.dots{background-image:radial-gradient(rgba(91,58,155,.16) 1.5px,transparent 1.5px);background-size:28px 28px}
+.tape{position:absolute;width:110px;height:30px;background:repeating-linear-gradient(135deg,rgba(249,201,225,.9) 0 8px,rgba(255,255,255,.55) 8px 16px)}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #5B3A9B;outline-offset:3px;border-radius:6px}
+summary{list-style:none;cursor:pointer}summary::-webkit-details-marker{display:none}
+details[open] .chev{transform:rotate(180deg)}.chev{transition:transform .2s}
+.board-line{opacity:0;transform:translateY(6px);transition:all .35s}.board-line.show{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.board-line,.chev{transition:none}}
+</style>
+</head>
+<body class="bg-paper text-ink font-sans antialiased dots">
+
+<header class="sticky top-0 z-40 bg-paper/95 backdrop-blur border-b border-lilac">
+  <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
+    <a href="#" class="font-serif font-semibold text-lg flex items-center gap-2"><span class="text-violet text-2xl">∫</span>Laura Sobarzo</a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium" aria-label="Principal">
+      <a href="#metodo" class="hover:text-violet">Cómo trabajo</a><a href="#temarios" class="hover:text-violet">Temarios</a>
+      <a href="#sobre-mi" class="hover:text-violet">Sobre mí</a><a href="#recursos" class="hover:text-violet">Recursos</a>
+      <a href="#tarifa" class="hover:text-violet">Tarifa</a><a href="#preguntas" class="hover:text-violet">Preguntas</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="https://instagram.com/lauramat.cl" target="_blank" rel="noopener noreferrer" aria-label="Instagram @lauramat.cl" class="w-10 h-10 grid place-items-center rounded-full bg-lilac text-violet hover:bg-blush"><i class="fa-brands fa-instagram text-lg"></i></a>
+      <a data-wa="Hola Laura, me gustaría consultar por disponibilidad de clases particulares." href="https://wa.me/56972490739" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-violet hover:bg-ink text-white text-sm font-semibold px-4 py-2.5 rounded-full"><i class="fa-brands fa-whatsapp"></i>Agendar clase</a>
+    </div>
+  </div>
+  <details class="md:hidden border-t border-lilac">
+    <summary class="px-4 py-2 text-sm font-medium flex items-center justify-between">Menú <i class="fa-solid fa-chevron-down chev text-xs"></i></summary>
+    <div class="px-4 pb-3 grid grid-cols-2 gap-2 text-sm">
+      <a href="#metodo">Cómo trabajo</a><a href="#temarios">Temarios</a><a href="#sobre-mi">Sobre mí</a><a href="#recursos">Recursos</a><a href="#tarifa">Tarifa</a><a href="#preguntas">Preguntas</a>
+    </div>
+  </details>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="max-w-5xl mx-auto px-4 pt-12 pb-16 md:pt-20 grid md:grid-cols-12 gap-10 items-center">
+  <div class="md:col-span-7">
+    <p class="text-sm font-medium text-violet mb-4"><i class="fa-solid fa-video mr-2"></i>Clases online 1 a 1 para todo Chile</p>
+    <h1 class="font-serif font-bold text-4xl sm:text-5xl leading-tight mb-5">Matemáticas y programación explicadas paso a paso</h1>
+    <p class="text-lg text-ink/80 leading-relaxed max-w-xl mb-8">Te acompaño en Álgebra, Cálculo, Ecuaciones Diferenciales y Python, para que entiendas el porqué de cada ejercicio y llegues a tus certámenes con seguridad.</p>
+    <div class="flex flex-col sm:flex-row gap-3 mb-8">
+      <a data-wa="Hola Laura, me interesan las clases de matemáticas/programación." href="https://wa.me/56972490739" target="_blank" rel="noopener noreferrer" class="inline-flex justify-center items-center gap-2 bg-violet hover:bg-ink text-white font-semibold px-6 py-3.5 rounded-xl"><i class="fa-brands fa-whatsapp text-lg"></i>Consultar disponibilidad</a>
+      <a href="#metodo" class="inline-flex justify-center items-center gap-2 bg-white border border-violet/40 hover:bg-lilac font-semibold px-6 py-3.5 rounded-xl">Mira cómo explico</a>
+    </div>
+    <ul class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-ink/80">
+      <li><i class="fa-solid fa-check text-violet mr-1.5"></i>+3 años haciendo clases</li>
+      <li><i class="fa-solid fa-check text-violet mr-1.5"></i>Google Meet y pizarra digital</li>
+      <li><i class="fa-solid fa-check text-violet mr-1.5"></i>PDF con todo lo resuelto</li>
+    </ul>
+  </div>
+  <div class="md:col-span-5 flex justify-center">
+    <figure class="relative bg-white p-4 pb-5 shadow-xl -rotate-3 max-w-xs w-full">
+      <span class="tape -top-3 left-1/2 -translate-x-1/2 rotate-2"></span>
+      <img src="perfil.jpg" alt="Laura Sobarzo, profesora de matemáticas y programación" class="w-full aspect-[4/5] object-cover" width="640" height="800">
+      <figcaption class="font-serif italic text-center text-lg pt-4">Laura, Licenciatura en Matemáticas, PUCV</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- MÉTODO + PIZARRA -->
+<section id="metodo" class="bg-lilac/60 border-y border-lilac py-16">
+  <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h2 class="font-serif font-bold text-3xl mb-4">Así son mis clases</h2>
+      <p class="mb-6 text-ink/80 leading-relaxed">Sin memorizar fórmulas: vemos la lógica detrás de cada tema y la practicamos con tus guías y certámenes pasados. Prueba un ejemplo en la pizarra.</p>
+      <ul class="space-y-4">
+        <li class="flex gap-3"><i class="fa-solid fa-laptop text-violet mt-1 w-5"></i><span><strong>Sesiones individuales en vivo</strong> por Google Meet, desde tu casa.</span></li>
+        <li class="flex gap-3"><i class="fa-solid fa-pen-ruler text-violet mt-1 w-5"></i><span><strong>Pizarra digital</strong> para resolver cada problema paso a paso, en tiempo real.</span></li>
+        <li class="flex gap-3"><i class="fa-solid fa-file-pdf text-violet mt-1 w-5"></i><span><strong>PDF al terminar</strong> con todo lo escrito y resuelto en la clase.</span></li>
+        <li class="flex gap-3"><i class="fa-solid fa-calendar-check text-violet mt-1 w-5"></i><span><strong>Horarios a tu medida:</strong> semanas de certámenes o bloques fijos.</span></li>
+      </ul>
+    </div>
+    <div class="relative">
+      <span class="tape -top-3 right-8 -rotate-3"></span>
+      <div class="bg-ink text-white rounded-2xl p-6 shadow-xl font-serif" aria-live="polite">
+        <p class="text-blush text-sm font-sans mb-3">Resuelve conmigo</p>
+        <p class="text-xl mb-4">2x + y = 5 <span class="mx-2 text-white/40">y</span> x − y = 1</p>
+        <div id="board" class="space-y-2 text-lg italic min-h-[9rem]"></div>
+        <div class="flex gap-3 mt-5 font-sans">
+          <button id="next" class="bg-blush text-ink font-semibold text-sm px-4 py-2 rounded-lg hover:bg-white">Siguiente paso</button>
+          <button id="reset" class="text-sm px-4 py-2 rounded-lg border border-white/30 hover:bg-white/10">Reiniciar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEMARIOS -->
+<section id="temarios" class="max-w-3xl mx-auto px-4 py-16">
+  <h2 class="font-serif font-bold text-3xl mb-2">Temarios</h2>
+  <p class="text-ink/80 mb-8">Si tu ramo tiene contenidos que no aparecen aquí, escríbeme con tu programa y lo revisamos.</p>
+  <div id="ramos" class="space-y-3"></div>
+</section>
+
+<!-- SOBRE MÍ -->
+<section id="sobre-mi" class="bg-white border-y border-lilac py-16">
+  <div class="max-w-3xl mx-auto px-4">
+    <h2 class="font-serif font-bold text-3xl mb-5">Sobre mí</h2>
+    <div class="space-y-4 text-lg leading-relaxed font-serif text-ink/90">
+      <p>Hola, soy Laura. Estudio Licenciatura en Matemáticas en la PUCV y hago clases particulares desde 2023, a escolares y universitarios.</p>
+      <p>Sé que cada persona aprende a su ritmo. Por eso me enfoco en que entiendas las estructuras lógicas detrás de cada teoría y algoritmo, en un ambiente sin presión donde se puede preguntar todo.</p>
+      <p>Cuando no estoy haciendo matemática, estoy leyendo. Y en Instagram comparto divulgación para que las mates se sientan más cercanas.</p>
+    </div>
+    <blockquote class="mt-8 border-l-4 border-blush pl-5 italic text-ink/80">Mi objetivo: que construyas bases sólidas y enfrentes tus evaluaciones con seguridad, autonomía y criterio propio.</blockquote>
+  </div>
+</section>
+
+<!-- RECURSOS -->
+<section id="recursos" class="max-w-5xl mx-auto px-4 py-16">
+  <h2 class="font-serif font-bold text-3xl mb-8">Recursos gratuitos</h2>
+  <div class="grid md:grid-cols-2 gap-6">
+    <article class="bg-white border border-lilac rounded-2xl p-6 flex flex-col">
+      <p class="text-sm text-violet font-medium mb-2">Álgebra Lineal · PDF de 2 páginas</p>
+      <h3 class="font-serif font-semibold text-xl mb-2">Sistemas de ecuaciones resueltos</h3>
+      <p class="text-ink/80 text-sm mb-5 flex-1">Un problema clásico de matrices con el método de Gauss-Jordan explicado en detalle.</p>
+      <a href="download.pdf" download="Guia_Algebra_Lineal_LauraSobarzo.pdf" class="inline-flex justify-center items-center gap-2 bg-violet hover:bg-ink text-white font-semibold py-3 rounded-xl"><i class="fa-solid fa-download"></i>Descargar guía</a>
+    </article>
+    <article class="bg-blush/60 border border-blush rounded-2xl p-6 flex flex-col">
+      <p class="text-sm text-rose font-medium mb-2">Instagram · @lauramat.cl</p>
+      <h3 class="font-serif font-semibold text-xl mb-2">Matemáticas en la vida real</h3>
+      <p class="text-ink/80 text-sm mb-5 flex-1">Carruseles y mini-clases sobre cómo funcionan Spotify, las entradas de un concierto y más.</p>
+      <a href="https://instagram.com/lauramat.cl" target="_blank" rel="noopener noreferrer" class="inline-flex justify-center items-center gap-2 bg-ink hover:bg-violet text-white font-semibold py-3 rounded-xl"><i class="fa-brands fa-instagram"></i>Seguir en Instagram</a>
+    </article>
+  </div>
+</section>
+
+<!-- TARIFA + PREGUNTAS -->
+<section class="bg-lilac/60 border-y border-lilac py-16">
+  <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-5 gap-10">
+    <div id="tarifa" class="md:col-span-2 bg-ink text-white rounded-2xl p-8 self-start">
+      <h2 class="font-serif font-bold text-2xl mb-4">Tarifa</h2>
+      <p class="font-serif text-5xl font-bold">$20.000</p>
+      <p class="text-white/70 mb-5">CLP por hora (60 min)</p>
+      <p class="text-sm text-white/85 mb-5">Incluye clase online 1 a 1, resolución de tus dudas y el PDF completo con los ejercicios resueltos.</p>
+      <p class="text-sm text-white/85 mb-6"><i class="fa-solid fa-credit-card text-blush mr-2"></i>Pago por transferencia<br><i class="fa-solid fa-calendar-check text-blush mr-2 mt-2"></i>Reserva coordinando un bloque</p>
+      <a data-wa="Hola Laura, quiero coordinar mi primera clase." href="https://wa.me/56972490739" target="_blank" rel="noopener noreferrer" class="inline-flex w-full justify-center items-center gap-2 bg-blush text-ink hover:bg-white font-semibold py-3 rounded-xl"><i class="fa-brands fa-whatsapp"></i>Coordinar horario</a>
+    </div>
+    <div id="preguntas" class="md:col-span-3">
+      <h2 class="font-serif font-bold text-3xl mb-6">Preguntas frecuentes</h2>
+      <div id="faq" class="space-y-3"></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS: cuando tengas permiso de tus alumnos, descomenta y reemplaza con textos reales
+<section class="max-w-5xl mx-auto px-4 py-16">
+  <h2 class="font-serif font-bold text-3xl mb-8">Lo que dicen mis alumnos</h2>
+  <div class="grid md:grid-cols-3 gap-6">
+    <blockquote class="bg-white border border-lilac rounded-2xl p-6 italic">"Escribe aquí el testimonio." <footer class="not-italic text-sm text-violet mt-3">Nombre, carrera</footer></blockquote>
+  </div>
+</section>
+-->
+</main>
+
+<footer class="py-12 text-center">
+  <p class="font-serif font-semibold text-lg">Laura Sobarzo <span class="text-ink/60 font-normal">· Matemáticas y Programación</span></p>
+  <p class="text-sm text-ink/70 mt-2 mb-6">Clases particulares online adaptadas al programa de tu universidad.</p>
+  <div class="flex justify-center gap-6 text-sm mb-6">
+    <a href="https://wa.me/56972490739" target="_blank" rel="noopener noreferrer" class="hover:text-violet"><i class="fa-brands fa-whatsapp mr-1.5"></i>WhatsApp</a>
+    <a href="https://instagram.com/lauramat.cl" target="_blank" rel="noopener noreferrer" class="hover:text-violet"><i class="fa-brands fa-instagram mr-1.5"></i>Instagram</a>
+    <a href="mailto:lauravsr.mat@gmail.com" class="hover:text-violet"><i class="fa-solid fa-envelope mr-1.5"></i>Email</a>
+  </div>
+  <p class="text-xs text-ink/60">© <span id="y"></span> Laura Sobarzo. Todos los derechos reservados.</p>
+</footer>
+
+<a data-wa="Hola Laura, te escribo desde tu sitio web para consultar por clases." href="https://wa.me/56972490739" target="_blank" rel="noopener noreferrer" aria-label="Escribir por WhatsApp" class="fixed bottom-5 right-5 z-50 w-14 h-14 grid place-items-center rounded-full bg-violet hover:bg-ink text-white shadow-2xl"><i class="fa-brands fa-whatsapp text-2xl"></i></a>
+
+<script>
+const wa=t=>'https://wa.me/56972490739?text='+encodeURIComponent(t);
+document.querySelectorAll('[data-wa]').forEach(a=>a.href=wa(a.dataset.wa));
+document.getElementById('y').textContent=new Date().getFullYear();
+
+const ramos=[
+ ['∑','Álgebra y Álgebra Lineal','Estructuras abstractas y sistemas lineales',['Lógica matemática y métodos de demostración','Sistemas de ecuaciones lineales y matrices','Espacios vectoriales y subespacios','Transformaciones lineales, kernel e imagen','Valores y vectores propios, diagonalización']],
+ ['∫','Cálculo I, II y III','Una y varias variables reales',['Límites, continuidad y derivadas','Optimización y análisis de curvas','Integrales indefinidas, definidas y técnicas','Funciones de varias variables y derivadas parciales','Integrales múltiples (dobles y triples)']],
+ ['dy/dt','Ecuaciones Diferenciales','Modelamiento de sistemas dinámicos',['EDOs de 1er orden (separables, exactas, lineales)','EDOs de orden superior con coeficientes constantes','Transformada de Laplace y aplicaciones','Sistemas de ecuaciones diferenciales lineales']],
+ ['</>','Programación en Python','Lógica algorítmica y herramientas científicas',['Sintaxis, variables y tipos de datos','Estructuras de control (if, for, while)','Funciones, módulos y pensamiento algorítmico','Introducción a NumPy y Matplotlib']]];
+document.getElementById('ramos').innerHTML=ramos.map(([s,t,d,l],i)=>`
+<details class="bg-white border border-lilac rounded-xl" ${i==0?'open':''}>
+ <summary class="flex items-center gap-4 p-4">
+  <span class="w-12 h-12 shrink-0 grid place-items-center rounded-lg bg-lilac text-violet font-mono font-bold">${s}</span>
+  <span class="flex-1"><span class="block font-serif font-semibold text-lg">${t}</span><span class="block text-sm text-ink/70">${d}</span></span>
+  <i class="fa-solid fa-chevron-down chev text-violet"></i></summary>
+ <ul class="px-5 pb-5 pl-[5.25rem] space-y-1.5 text-sm text-ink/85 list-disc marker:text-violet">${l.map(x=>`<li>${x}</li>`).join('')}</ul>
+</details>`).join('');
+
+const faq=[
+ ['¿Cómo son las clases?','Son individuales y en vivo por Google Meet. Resolvemos tus ejercicios en una pizarra digital y al final recibes un PDF con todo lo escrito.'],
+ ['¿Cuánto dura una clase y cuánto cuesta?','Una clase dura 60 minutos y cuesta $20.000 CLP.'],
+ ['¿Cómo se paga?','Por transferencia bancaria, una vez coordinado el bloque de clase.'],
+ ['¿Puedo llevar mis guías o certámenes pasados?','Sí, es lo mejor que puedes traer. Trabajamos sobre tus propios ejercicios.'],
+ ['¿Haces clases a escolares?','Sí. Escríbeme con tu materia y nivel y te confirmo.'],
+ ['¿Hay clases en horarios fijos?','Puedes agendar clases sueltas, por ejemplo antes de un certamen, o dejar un horario fijo semanal.']];
+document.getElementById('faq').innerHTML=faq.map(([q,a])=>`
+<details class="bg-white border border-lilac rounded-xl p-4"><summary class="flex justify-between gap-4 font-semibold">${q}<i class="fa-solid fa-chevron-down chev text-violet mt-1"></i></summary><p class="mt-3 text-sm text-ink/80 leading-relaxed">${a}</p></details>`).join('');
+
+const steps=['Paso 1: sumo las dos ecuaciones y se va la y → 3x = 6','Paso 2: despejo → x = 2','Paso 3: reemplazo en x − y = 1 → y = 1','Resultado: (x, y) = (2, 1). Compruebo: 2·2 + 1 = 5 ✓  y  2 − 1 = 1 ✓'];
+const board=document.getElementById('board'),nextB=document.getElementById('next');let n=0;
+function render(){board.innerHTML=steps.slice(0,n).map(s=>`<p class="board-line">${s}</p>`).join('');
+ requestAnimationFrame(()=>board.querySelectorAll('.board-line').forEach(e=>e.classList.add('show')));
+ nextB.disabled=n>=steps.length;nextB.classList.toggle('opacity-40',nextB.disabled);}
+nextB.onclick=()=>{if(n<steps.length){n++;render()}};
+document.getElementById('reset').onclick=()=>{n=0;render()};render();
+</script>
+</body>
+</html>
